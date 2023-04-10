@@ -1,3 +1,7 @@
 Application example for Kitu suite
 
-Kitu-app-example-Front, is Unity project build from URP Core template.
+-----
+
+## Storategy of manage source / version control
+
+`My-app-front` is Unity project build from URP Core template.
