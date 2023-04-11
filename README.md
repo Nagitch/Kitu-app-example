@@ -1,18 +1,19 @@
-Application example for Kitu suite, style of tiny third person topdown view shooter.
+Application example for Kitu suite, style of tiny third person top-down view shooter.
 
 -----
 
 ## Dependencies
 
-see `manifest.json`
+see `manifest.json`. no need purchasing external assets.
 
 -----
-there're TIPS and best practice notes
 
-## Storategy of manage source / version control
+here's TIPS and best practice notes
+
+## Strategy of manage source / version control
 
 - Git LFS
-- `My-app-front` (`***-front`) is Unity project build from URP Core template. design concept is based on Kitu-Headless.
+- `My-app-front` (`***-front`) is Unity project (build from URP Core template). designing concept is based on Kitu-Headless.
 
 ### Art, asset resource management
 
