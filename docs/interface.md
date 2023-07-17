@@ -18,10 +18,12 @@ State(状態)はサーバーが持ち、クライアントはそれをレプリ�
             { "medipack": 3 }
             { "heavy-bullet": 10 }
             ],
-        "achieved": {
-        "beated-level-1": true,
-        "beated-level-2": false,
-        }
+        "achieved-transactions": [
+          { "id": 1, "key": "game-started", "value": "", "created-at": "2020-07-12T14:38:09.760", "updated-at": "2020-07-12T14:38:09.760" },
+          { "id": 2, "key": "level-1-arm-choice", "value": "sword", "created-at": "2020-07-13T14:38:09.760", "updated-at": "2020-07-13T14:38:09.760" },
+          { "id": 3, "key": "beated-level-1", "value": "", "created-at": "2020-07-14T14:38:09.760", "updated-at": "2020-07-14T14:38:09.760" },
+          { "id": 4, "key": "beated-level-2", "value": "", "created-at": "2020-07-15T14:38:09.760", "updated-at": "2020-07-15T14:38:09.760" },
+        ]
     },
     "director": {
         "gameplay": {
