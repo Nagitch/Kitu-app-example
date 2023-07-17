@@ -4,7 +4,7 @@
 
 - ルーティングについて
   - リソースがid, number, selectorにより指定できるルーティングは、指定を省略すると最初の要素を自動的に指定する。 ex. `/player` = `/player/1`
-- `Reliable` のAPIはリクエストの到達が保証される。 `UnReliable` は保証されない。具体的には、 `Realiable` はTCP, `Unrealiable` はUDPで通信される（またはそれに相当するプロトコル）。
+- `Reliable` のAPIはリクエストの到達が保証される(TCP like)。 `UnReliable` は保証されない(UDP like)。
 
 ## State
 
