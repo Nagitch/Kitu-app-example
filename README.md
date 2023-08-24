@@ -1,14 +1,14 @@
-Application example for Kitu suite, style of tiny third person top-down view shooter.
+Application example for Kitu suite, style of tiny third person style shooter, works as starter project.
 
 -----
 
 ## Dependencies
 
-see `manifest.json`. no need purchasing external assets.
+see `manifest.json`. no need purchasing extra assets.
 
 -----
 
-here's TIPS and best practice notes
+# Breakdown
 
 ## Strategy of manage source / version control
 
@@ -27,3 +27,12 @@ avoid doubling art resource in this repository, e.g. whole exported .fbx files.
 - Kitu frontend interface sources
 - folder(directory) structure
 - multi scene editing
+
+
+## BFF (Backend For Frontend) project
+
+prototyping note
+
+- .NET 7.0 install
+- following MagicOnion Quick Start https://github.com/Cysharp/MagicOnion#quick-start
+    - `dotnet new web -o My-app-BFF`
